@@ -1,0 +1,412 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav-bar-mobile,
+.nav-footer {
+    display: none;
+}
+
+
+
+body {
+    width: 100%;
+}
+
+.max-container {
+    width: 100%;
+    height: 100%;
+}
+
+/*navbar*/
+.menu-bar {
+    width: 100%;
+    height: 54px;
+    border: 2px solid #DBDBDB;
+
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar {
+    width: 50%;
+    height: inherit;
+    border-left: 2px solid green;
+    border-right: 2px solid green;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.v-separator {
+    margin: 15px;
+}
+
+.logos {
+    display: flex;
+}
+
+.logos img {
+    width: 30px;
+}
+
+.logos img:nth-child(3) {
+    margin-top: 5px;
+
+    height: 29px;
+    width: 103px;
+}
+
+.search-bar input {
+    height: 28px;
+    width: 215px;
+    border-radius: 3px;
+    text-align: center;
+
+}
+
+.configs-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.configs-bar img {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+
+/*histories*/
+.max-container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.circle-histories {
+    margin-top: 38px;
+    height: 120px;
+    width: 615px;
+    border: 2px solid #DBDBDB;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.circle-histories .circle-card img {
+    height: 66px;
+    width: 66px;
+    border-radius: 50px;
+    padding: 3px;
+    background: -webkit-linear-gradient(left top, crimson 0%, #f90 100%);
+}
+
+.circle-card {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #262626;
+
+}
+
+/*timeline-card*/
+
+.timeline-card {
+    margin-top: 24px;
+    width: 615px;
+    height: 750px;
+    border: 2px solid #DBDBDB;
+    margin-bottom: 60px;
+}
+
+.h-separator {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.perfil {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 40px;
+
+}
+
+.perfil img {
+    height: 35px;
+    width: 35px;
+}
+
+.perfil p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.name-perfil {
+    display: flex;
+    align-items: center;
+}
+
+.name-perfil p {
+    margin-left: 10px;
+}
+
+.img-timeline img {
+    height: 612px;
+    width: 612px;
+    left: 216px;
+    top: 291px;
+    border-radius: 0px;
+
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+    height: 40px;
+
+}
+
+.actions .user-actions {
+    display: flex;
+
+}
+
+.actions .user-actions img {
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+
+}
+
+.actions .favorite {
+    height: 15.125053405761719px;
+    width: 16.500869750976562px;
+}
+
+.likes {
+    margin-left: 17px;
+}
+
+.liked-you {
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.liked-you img {
+    width: 20px;
+    min-height: 20px;
+    border-radius: 50px;
+    margin-right: 9px;
+}
+
+.liked-you p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+aside {
+    margin-top: 38px;
+    margin-left: 25px;
+    width: 293px;
+    height: 100%;
+
+}
+
+.owner {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 293px;
+    justify-content: space-between;
+}
+
+.perfil-aside {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.owner img {
+    height: 56px;
+    width: 56px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.owner .names p:nth-child(1) {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.owner .names p:nth-child(2) {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: dimgray;
+}
+
+.sugestions {
+    width: 293px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.sugestions-for-you {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.sugestions-for-you .sugestoes-you {
+    width: 293px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.sugestoes-you img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.sugestoes-you p:nth-child(1) {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #262626;
+}
+
+.sugestoes-you p:nth-child(2) {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8E8E8E;
+}
+
+.help {
+    margin-top: 40px;
+    height: 80px;
+    width: 293px;
+}
+
+.help p {
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C7C7C7;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 940px) {
+    aside {
+        display: none;
+    }
+
+    .nav-bar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 614px) {
+    .circle-histories {
+        margin: 0px 0px;
+        border: none;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .nav-bar-mobile {
+        width: 98%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #DBDBDB;
+    }
+
+    .instagram-name img {
+        height: 29px;
+        width: 103px;
+        border-radius: 0px;
+
+    }
+
+    .nav-footer {
+        display: flex;
+        justify-content: center;
+        height: 54px;
+        width: 100%;
+        border: 1px solid #DBDBDB;
+        position:relative;
+    }
+
+    .nav-footer ul {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-footer il {
+        position: relative;
+        white-space: nowrap;
+    }
+
+    .nav-footer img {
+        height: 25px;
+        width: 25px;
+    }
+}
