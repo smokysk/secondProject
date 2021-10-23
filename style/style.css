@@ -31,8 +31,6 @@ body {
 .nav-bar {
     width: 50%;
     height: inherit;
-    border-left: 2px solid green;
-    border-right: 2px solid green;
 
     display: flex;
     justify-content: space-between;
@@ -49,6 +47,7 @@ body {
 
 .logos img {
     width: 30px;
+    cursor: pointer;
 }
 
 .logos img:nth-child(3) {
@@ -63,6 +62,7 @@ body {
     width: 215px;
     border-radius: 3px;
     text-align: center;
+    border: 1px solid #DBDBDB;
 
 }
 
@@ -76,7 +76,7 @@ body {
     width: 30px;
     margin-left: 10px;
     margin-right: 5px;
-
+    cursor: pointer;
 }
 
 /*histories*/
@@ -95,10 +95,13 @@ body {
 
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    position: relative;
+
+    overflow-x: hidden;
 }
 
 .circle-histories .circle-card img {
+
     height: 66px;
     width: 66px;
     border-radius: 50px;
@@ -115,13 +118,25 @@ body {
     letter-spacing: 0em;
     text-align: center;
     color: #262626;
-
+    margin-left: 15px;
+    cursor: pointer;
+}
+.icon-button {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 0;
+    padding-right: 5px;
+}
+.icon-button img {
+    border-radius: 100%;
+    border: 1px solid #DBDBDB;
+    cursor: pointer;
 }
 
 /*timeline-card*/
 
 .timeline-card {
-    margin-top: 24px;
     width: 615px;
     height: 750px;
     border: 2px solid #DBDBDB;
@@ -138,13 +153,14 @@ body {
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
-    height: 40px;
+    height: 50px;
 
 }
 
 .perfil img {
-    height: 35px;
-    width: 35px;
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
 }
 
 .perfil p {
@@ -155,6 +171,7 @@ body {
     line-height: 16px;
     letter-spacing: 0em;
     text-align: left;
+    cursor: pointer;
 }
 
 .name-perfil {
@@ -172,6 +189,7 @@ body {
     left: 216px;
     top: 291px;
     border-radius: 0px;
+    cursor: pointer;
 
 }
 
@@ -190,15 +208,17 @@ body {
 }
 
 .actions .user-actions img {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     margin-left: 8px;
+    cursor: pointer;
 
 }
 
 .actions .favorite {
-    height: 15.125053405761719px;
-    width: 16.500869750976562px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
 }
 
 .likes {
@@ -237,7 +257,9 @@ aside {
     height: 100%;
 
 }
-
+.aside-part{
+    position: fixed;
+}
 .owner {
     display: flex;
     align-items: center;
@@ -288,6 +310,7 @@ aside {
 }
 
 .sugestions-for-you {
+    width: 293px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -390,7 +413,8 @@ aside {
         height: 54px;
         width: 100%;
         border: 1px solid #DBDBDB;
-        position:relative;
+        background-color: #FFFFFF;
+        
     }
 
     .nav-footer ul {
@@ -400,13 +424,17 @@ aside {
         align-items: center;
     }
 
-    .nav-footer il {
-        position: relative;
-        white-space: nowrap;
-    }
 
     .nav-footer img {
         height: 25px;
         width: 25px;
     }
+    .timeline {
+        height: 100%;
+    }
+    .sticky {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
 }

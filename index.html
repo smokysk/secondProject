@@ -1,177 +1,224 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/reset.css" />
-    <link rel="stylesheet" href="./style/style.css" />
-    <title>Instagram Clone</title>
-  </head>
+<html lang="pt-BR">
 
-  <body>
-    <div class="menu-bar">
-      <div class="nav-bar">
-        <div class="logos">
-          <img src="./assets/navbar/instagram-logo.svg" alt="" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style/reset.css" />
+  <link rel="stylesheet" href="./style/style.css" />
+  <title>Instagram Clone</title>
+</head>
 
-          <div class="v-separator"></div>
+<body>
+  <div class="menu-bar">
+    <div class="nav-bar">
+      <div class="logos">
+        <img src="./assets/navbar/instagram-logo.svg" alt="" />
 
-          <img src="./assets/navbar/logo.png" alt="" />
+        <div class="v-separator"></div>
+
+        <img src="./assets/navbar/logo.png" alt="" />
+      </div>
+      <div class="search-bar">
+        <input type="text" id="pesquisar" name="pesquisar" placeholder="samuel"/>
+      </div>
+      <div class="configs-bar">
+        <img src="./assets/navbar/send.svg" alt="" />
+        <img src="./assets/navbar/bussula.svg" alt="" />
+        <img src="./assets/navbar/like.svg" alt="" />
+        <img src="./assets/navbar/user.svg" alt="" />
+      </div>
+    </div>
+    <div class="nav-bar-mobile">
+      <div class="logos">
+        <img src="./assets/navbar/instagram-logo.svg" alt="" />
+      </div>
+      <div class="instagram-name">
+        <img src="./assets/navbar/logo.png" alt="" />
+      </div>
+      <div class="configs-bar">
+        <img src="./assets/navbar/send.svg" alt="" />
+      </div>
+    </div>
+  </div>
+  <div class="max-container">
+    <div class="timeline">
+      <div class="circle-histories">
+        <div class="icon-button">
+          <img src="./assets/navbar/button-scroll.svg" alt="">
         </div>
-        <div class="search-bar">
-          <input type="text" id="pesquisar" name="pesquisar" value="John" />
+        <div class="circle-card">
+          <img src="./assets/histories/mastodon.jpg" alt="" />
+          <p>mastodon</p>
         </div>
-        <div class="configs-bar">
-          <img src="./assets/navbar/send.svg" alt="" />
-          <img src="./assets/navbar/bussula.svg" alt="" />
-          <img src="./assets/navbar/like.svg" alt="" />
-          <img src="./assets/navbar/user.svg" alt="" />
+        <div class="circle-card">
+          <img src="./assets/histories/mastodon.jpg" alt="" />
+          <p>mastodon</p>
+        </div>
+        <div class="circle-card">
+          <img src="./assets/histories/mastodon.jpg" alt="" />
+          <p>mastodon</p>
+        </div>
+        <div class="circle-card">
+          <img src="./assets/histories/mastodon.jpg" alt="" />
+          <p>mastodon</p>
+        </div>
+        <div class="circle-card">
+          <img src="./assets/histories/mastodon.jpg" alt="" />
+          <p>mastodon</p>
+        </div>
+        <div class="circle-card">
+          <img src="./assets/histories/mastodon.jpg" alt="" />
+          <p>mastodon</p>
+        </div>
+        <div class="circle-card">
+          <img src="./assets/histories/mastodon.jpg" alt="" />
+          <p>mastodon</p>
+        </div>
+        <div class="circle-card">
+          <img src="./assets/histories/mastodon.jpg" alt="" />
+          <p>mastodon</p>
+        </div>
+       
+      </div>
+      <div class="h-separator"></div>
+      <div class="timeline-card">
+        <div class="perfil">
+          <div class="name-perfil">
+            <img src="./assets/perfil/magritte.png" alt="" />
+            <p>magritte</p>
+          </div>
+          <div id="more">
+            <img src="./assets/navbar/more.svg" alt="" />
+          </div>
+        </div>
+        <div class="img-timeline">
+          <img src="https://picsum.photos/612/?random=2" alt="" />
+        </div>
+        <div class="actions">
+          <div class="user-actions">
+            <img src="./assets/navbar/like.svg" alt="" />
+            <img src="./assets/navbar/message.svg" alt="" />
+            <img src="./assets/navbar/send.svg" alt="" />
+          </div>
+          <div class="favorite">
+            <img src="./assets/navbar/favorite.svg" alt="" />
+          </div>
+        </div>
+        <div class="likes">
+          <div class="liked-you">
+            <img src="./assets/perfil/driven.svg" alt="" />
+            <p>
+              Curtido por <strong>Driven</strong> e
+              <strong>outras 99.159 pessoaso</strong>
+            </p>
+          </div>
         </div>
       </div>
-      <div class="nav-bar-mobile">
-        <div class="logos">
-          <img src="./assets/navbar/instagram-logo.svg" alt="" />
+      <div class="timeline-card">
+        <div class="perfil">
+          <div class="name-perfil">
+            <img src="./assets/perfil/magritte.png" alt="" />
+            <p>magritte</p>
+          </div>
+          <div id="more">
+            <img src="./assets/navbar/more.svg" alt="" />
+          </div>
         </div>
-        <div class="instagram-name">
-          <img src="./assets/navbar/logo.png" alt="" />
+        <div class="img-timeline">
+          <img src="https://picsum.photos/612/?random=1" alt="" />
         </div>
-        <div class="configs-bar">
-          <img src="./assets/navbar/send.svg" alt="" />
+        <div class="actions">
+          <div class="user-actions">
+            <img src="./assets/navbar/like.svg" alt="" />
+            <img src="./assets/navbar/message.svg" alt="" />
+            <img src="./assets/navbar/send.svg" alt="" />
+          </div>
+          <div class="favorite">
+            <img src="./assets/navbar/favorite.svg" alt="" />
+          </div>
+        </div>
+        <div class="likes">
+          <div class="liked-you">
+            <img src="./assets/perfil/driven.svg" alt="" />
+            <p>
+              Curtido por <strong>Driven</strong> e
+              <strong>outras 99.159 pessoaso</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-card">
+        <div class="perfil">
+          <div class="name-perfil">
+            <img src="./assets/perfil/magritte.png" alt="" />
+            <p>magritte</p>
+          </div>
+          <div id="more">
+            <img src="./assets/navbar/more.svg" alt="" />
+          </div>
+        </div>
+        <div class="img-timeline">
+          <img src="https://picsum.photos/612/?random=3" alt="" />
+        </div>
+        <div class="actions">
+          <div class="user-actions">
+            <img src="./assets/navbar/like.svg" alt="" />
+            <img src="./assets/navbar/message.svg" alt="" />
+            <img src="./assets/navbar/send.svg" alt="" />
+          </div>
+          <div class="favorite">
+            <img src="./assets/navbar/favorite.svg" alt="" />
+          </div>
+        </div>
+        <div class="likes">
+          <div class="liked-you">
+            <img src="./assets/perfil/driven.svg" alt="" />
+            <p>
+              Curtido por <strong>Driven</strong> e
+              <strong>outras 99.159 pessoaso</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-card">
+        <div class="perfil">
+          <div class="name-perfil">
+            <img src="./assets/perfil/magritte.png" alt="" />
+            <p>magritte</p>
+          </div>
+          <div id="more">
+            <img src="./assets/navbar/more.svg" alt="" />
+          </div>
+        </div>
+        <div class="img-timeline">
+          <img src="./assets/timeline/ofilhodohomem.jpg" alt="" />
+        </div>
+        <div class="actions">
+          <div class="user-actions">
+            <img src="./assets/navbar/like.svg" alt="" />
+            <img src="./assets/navbar/message.svg" alt="" />
+            <img src="./assets/navbar/send.svg" alt="" />
+          </div>
+          <div class="favorite">
+            <img src="./assets/navbar/favorite.svg" alt="" />
+          </div>
+        </div>
+        <div class="likes">
+          <div class="liked-you">
+            <img src="./assets/perfil/driven.svg" alt="" />
+            <p>
+              Curtido por <strong>Driven</strong> e
+              <strong>outras 99.159 pessoaso</strong>
+            </p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="max-container">
-      <div class="timeline">
-        <div class="circle-histories">
-          <div class="circle-card">
-            <img src="./assets/histories/mastodon.jpg" alt="" />
-            <p>mastodon</p>
-          </div>
-          <div class="circle-card">
-            <img src="./assets/histories/mastodon.jpg" alt="" />
-            <p>mastodon</p>
-          </div>
-          <div class="circle-card">
-            <img src="./assets/histories/mastodon.jpg" alt="" />
-            <p>mastodon</p>
-          </div>
-          <div class="circle-card">
-            <img src="./assets/histories/mastodon.jpg" alt="" />
-            <p>mastodon</p>
-          </div>
-          <div class="circle-card">
-            <img src="./assets/histories/mastodon.jpg" alt="" />
-            <p>mastodon</p>
-          </div>
-          <div class="circle-card">
-            <img src="./assets/histories/mastodon.jpg" alt="" />
-            <p>mastodon</p>
-          </div>
-        </div>
-        <div class="h-separator"></div>
-        <div class="timeline-card">
-          <div class="perfil">
-            <div class="name-perfil">
-              <img src="./assets/perfil/magritte.png" alt="" />
-              <p>magritte</p>
-            </div>
-            <div id="more">
-              <img src="./assets/navbar/more.svg" alt="" />
-            </div>
-          </div>
-          <div class="img-timeline">
-            <img src="./assets/timeline/ofilhodohomem.jpg" alt="" />
-          </div>
-          <div class="actions">
-            <div class="user-actions">
-              <img src="./assets/navbar/like.svg" alt="" />
-              <img src="./assets/navbar/message.svg" alt="" />
-              <img src="./assets/navbar/send.svg" alt="" />
-            </div>
-            <div class="favorite">
-              <img src="./assets/navbar/favorite.svg" alt="" />
-            </div>
-          </div>
-          <div class="likes">
-            <div class="liked-you">
-              <img src="./assets/perfil/driven.svg" alt="" />
-              <p>
-                Curtido por <strong>Driven</strong> e
-                <strong>outras 99.159 pessoaso</strong>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="timeline-card">
-          <div class="perfil">
-            <div class="name-perfil">
-              <img src="./assets/perfil/magritte.png" alt="" />
-              <p>magritte</p>
-            </div>
-            <div id="more">
-              <img src="./assets/navbar/more.svg" alt="" />
-            </div>
-          </div>
-          <div class="img-timeline">
-            <img src="./assets/timeline/ofilhodohomem.jpg" alt="" />
-          </div>
-          <div class="actions">
-            <div class="user-actions">
-              <img src="./assets/navbar/like.svg" alt="" />
-              <img src="./assets/navbar/message.svg" alt="" />
-              <img src="./assets/navbar/send.svg" alt="" />
-            </div>
-            <div class="favorite">
-              <img src="./assets/navbar/favorite.svg" alt="" />
-            </div>
-          </div>
-          <div class="likes">
-            <div class="liked-you">
-              <img src="./assets/perfil/driven.svg" alt="" />
-              <p>
-                Curtido por <strong>Driven</strong> e
-                <strong>outras 99.159 pessoaso</strong>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="timeline-card">
-          <div class="perfil">
-            <div class="name-perfil">
-              <img src="./assets/perfil/magritte.png" alt="" />
-              <p>magritte</p>
-            </div>
-            <div id="more">
-              <img src="./assets/navbar/more.svg" alt="" />
-            </div>
-          </div>
-          <div class="img-timeline">
-            <img src="./assets/timeline/ofilhodohomem.jpg" alt="" />
-          </div>
-          <div class="actions">
-            <div class="user-actions">
-              <img src="./assets/navbar/like.svg" alt="" />
-              <img src="./assets/navbar/message.svg" alt="" />
-              <img src="./assets/navbar/send.svg" alt="" />
-            </div>
-            <div class="favorite">
-              <img src="./assets/navbar/favorite.svg" alt="" />
-            </div>
-          </div>
-          <div class="likes">
-            <div class="liked-you">
-              <img src="./assets/perfil/driven.svg" alt="" />
-              <p>
-                Curtido por <strong>Driven</strong> e
-                <strong>outras 99.159 pessoaso</strong>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <aside>
+
+    <aside>
+      <div class="aside-part">
         <div class="owner">
           <div class="perfil-aside">
             <img src="./assets/perfil/eu.jpg" alt="" />
@@ -253,16 +300,19 @@
 
           <p>© 2021 INSTAGRAM DO FACEBOOK</p>
         </div>
-      </aside>
-    </div>
-    <div class="nav-footer">
-        <ul>
-          <li><img src="./assets/navbar/home.svg" alt="" /></li>
-          <li><img src="./assets/navbar/search.svg" alt="" /></li>
-          <li><img src="./assets/navbar/add.svg" alt="" /></li>
-          <li><img src="./assets/navbar/like.svg" alt="" /></li>
-          <li><img src="./assets/navbar/user.svg" alt="" /></li>
-        </ul>
       </div>
-  </body>
+    </aside>
+  </div>
+  <div class="nav-footer sticky">
+    <ul>
+      <li><img src="./assets/navbar/home.svg" alt="" /></li>
+      <li><img src="./assets/navbar/search.svg" alt="" /></li>
+      <li><img src="./assets/navbar/add.svg" alt="" /></li>
+      <li><img src="./assets/navbar/like.svg" alt="" /></li>
+      <li><img src="./assets/navbar/user.svg" alt="" /></li>
+    </ul>
+  </div>
+</body>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
 </html>
