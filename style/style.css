@@ -196,8 +196,13 @@ body {
     top: 291px;
     border-radius: 0px;
     cursor: pointer;
-
 }
+.img-timeline video {
+    width: 612px;
+    height: 612px;
+    cursor: pointer;
+    border-top: 1px solid #DBDBDB;
+} 
 
 .actions {
     display: flex;
