@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.nav-bar-mobile,
+.nav-mobile,
 .nav-footer {
     display: none;
 }
@@ -120,6 +120,7 @@ body {
     margin-left: 15px;
     cursor: pointer;
 }
+
 .icon-button {
     height: 35px;
     width: 35px;
@@ -127,6 +128,7 @@ body {
     right: 0;
     padding-right: 5px;
 }
+
 .icon-button img {
     border-radius: 100%;
     border: 1px solid #DBDBDB;
@@ -141,10 +143,12 @@ body {
     border: 2px solid #DBDBDB;
     margin-bottom: 60px;
 }
+
 #more img {
     height: 25px;
     width: 25px;
 }
+
 .h-separator {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -186,9 +190,11 @@ body {
 .name-perfil p {
     margin-left: 10px;
 }
+
 .name-perfil img {
     border-radius: 100%;
 }
+
 .img-timeline img {
     height: 612px;
     width: 612px;
@@ -197,12 +203,13 @@ body {
     border-radius: 0px;
     cursor: pointer;
 }
+
 .img-timeline video {
     width: 612px;
     height: 612px;
     cursor: pointer;
     border-top: 1px solid #DBDBDB;
-} 
+}
 
 .actions {
     display: flex;
@@ -260,68 +267,82 @@ body {
     text-align: left;
 
 }
+
 .comments {
     display: flex;
     justify-content: center;
     width: 100%;
 }
-.comments-made{
+
+.comments-made {
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2px;
 }
-.perfil-comments{
+
+.perfil-comments {
     display: flex;
 }
-.perfil-comments p:nth-child(1){
+
+.perfil-comments p:nth-child(1) {
     font-size: 14px;
     font-weight: bold;
 }
-.perfil-comments p:nth-child(2){
+
+.perfil-comments p:nth-child(2) {
     font-size: 14px;
     margin-left: 5px;
 }
+
 .div-like img {
     height: 20px;
     width: 20px;
 }
+
 .container-comments {
     display: flex;
     flex-direction: column;
     width: 95%;
 }
-.container-comments .insert-comment{
+
+.container-comments .insert-comment {
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
 }
+
 .insert-comment input {
     width: 85%;
     border: none;
     height: 25px;
 }
+
 .insert-comment img {
     height: 25px;
     width: 25px;
     cursor: pointer;
 }
-.insert-comment button{
+
+.insert-comment button {
     border: none;
     color: lightskyblue;
     font-size: 14px;
     cursor: pointer;
-} 
+}
+
 .insert-comment button:hover {
     background-color: #0095F6;
     transition: 300ms;
 }
+
 .insert-comment p {
     color: lightskyblue;
     font-size: 14px;
-}     
+}
+
 aside {
     margin-top: 38px;
     margin-left: 25px;
@@ -329,9 +350,11 @@ aside {
     height: 100%;
 
 }
-.aside-part{
+
+.aside-part {
     position: fixed;
 }
+
 .owner {
     display: flex;
     align-items: center;
@@ -345,9 +368,11 @@ aside {
     align-items: center;
     flex-direction: row;
 }
+
 .seguir a {
     color: blue;
 }
+
 .owner img {
     height: 56px;
     width: 56px;
@@ -375,20 +400,24 @@ aside {
     text-align: left;
     color: dimgray;
 }
-.aux1 a{
-    color:blue;
+
+.aux1 a {
+    color: blue;
 }
+
 .sugestions {
     width: 293px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 12px;
 }
+
 .sugestions a {
     text-decoration: none;
     color: black;
     cursor: pointer;
 }
+
 .sugestions-for-you {
     width: 293px;
     display: flex;
@@ -468,16 +497,29 @@ aside {
         border: none;
     }
 
+    .menu-bar {
+        border: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        ;
+    }
+
     .nav-bar {
         display: none;
     }
 
-    .nav-bar-mobile {
-        width: 98%;
+    .nav-mobile {
         display: flex;
-        align-items: center;
+        height: 54px;
+        width: 100%;
+        padding: 5px;
+        border: 1px solid lightgray;
         justify-content: space-between;
-        border-bottom: 1px solid #DBDBDB;
+        align-items: center;
+    }
+    .nav-mobile img {
+        height: 32px;
     }
 
     .instagram-name img {
@@ -494,7 +536,7 @@ aside {
         width: 100%;
         border: 1px solid #DBDBDB;
         background-color: #FFFFFF;
-        
+
     }
 
     .nav-footer ul {
@@ -510,12 +552,14 @@ aside {
         width: 25px;
         cursor: pointer;
     }
+
     .timeline {
         height: 100%;
     }
+
     .sticky {
         position: fixed;
         bottom: 0;
         width: 100%;
-      }
+    }
 }
